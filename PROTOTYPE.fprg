@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 11:51:28 "/>
+        <attribute name="created" value="U29saWNvZGU7REVTS1RPUC1OTTZPQkVEOzIwMjEtMTAtMTI7IjA5OjI5OjA4ICI7MzA4NA=="/>
+        <attribute name="edited" value="U29saWNvZGU7REVTS1RPUC1OTTZPQkVEOzIwMjEtMTAtMTI7IjExOjUxOjI4ICI7MTszMTgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X" type="Integer" array="False" size=""/>
+            <declare name="Y" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTRE UN NOMBRE X= &quot;" newline="False"/>
+            <input variable="X"/>
+            <output expression="&quot;ENTRER UN NOMBRE Y= &quot;" newline="False"/>
+            <input variable="Y"/>
+            <output expression="X+Y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
